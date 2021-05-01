@@ -1147,3 +1147,52 @@
 			}
 
 	}
+
+	// experienceComponent
+		.experienceContainer{
+			background-color: #fff;
+			border-radius: 10px;
+			text-align: left;
+			padding: 20px;
+			margin-bottom: 10px;
+			.experiencePeriod{
+				display: inline-block;
+				background-color: #E27D60;
+				border-radius: 10px;
+				font-size: 80%;
+				line-height: 23px;
+				padding: 2px 5px;
+				color: #fff;
+    			font-weight: bold;
+			}
+			.experienceTitle{
+				font-weight: bold;
+			}
+			.experienceCompany{
+				color: #41B3A3;
+				font-weight: bold;
+			}
+			ul{
+				margin-bottom: 0px;
+			}
+		}
+
+	// Prgress
+		.progressContainer{
+			.progressTitle{
+				text-align: left;
+				span{
+					float: right;
+				}
+			}
+			.progress{
+				background: #dce3e2;
+				height: 10px;
+				border-radius: 5px;
+				.progressbar{
+					background: #E27D60;
+					height: inherit;
+					border-radius: inherit;
+				}
+			}
+		}

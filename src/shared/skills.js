@@ -1,22 +1,22 @@
 export const Skills = [
     {
-        id: 'p0',
+        id: 0,
         title: "js",
-        percent: '60%'
+        percent: '90%'
     },
     {
-        id: 'p2',
-        title: "js1",
-        percent: '40%'
+        id: 1,
+        title: "react js",
+        percent: '70%'
     },
     {
-        id: 'p3',
-        title: "js1",
-        percent: '40%'
+        id: 2,
+        title: "dojo js",
+        percent: '50%'
     },
     {
-        id: 'p4',
-        title: "js1",
-        percent: '40%'
+        id: 3,
+        title: "python",
+        percent: '50%'
     }
 ];

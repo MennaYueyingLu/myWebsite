@@ -1,66 +1,16 @@
 export const Education = [
     {
-        id: 'e0',
-        period: "01.2020 - 02.2020",
-        jobTitle: 'Front-End Developer',
-        company: 'Orbiteam',
-        jobContents: [
-            {
-                id: 'e01',
-                content: "create"
-            },
-            {
-                id: 'e02',
-                content: "create"
-            }
-        ]
+        id: 0,
+        period: "2015 - 2018",
+        jobTitle: "Master's Degree, Cartography",
+        company: 'Technische Universität München',
+        companyLink: 'https://www.tum.de/'
     },
     {
-        id: 'e1',
-        period: "01.2020 - 02.2020",
-        jobTitle: 'Uthappizza',
-        company: 'Orbiteam',
-        jobContents: [
-            {
-                id: 'e11',
-                content: ""
-            },
-            {
-                id: 'e12',
-                content: ""
-            }
-        ]
-    },
-    {
-        id: 'e2',
-        period: "01.2020 - 02.2020",
-        jobTitle: 'Uthappizza',
-        company: 'Orbiteam',
-        jobContents: [
-            {
-                id: 'e21',
-                content: ""
-            },
-            {
-                id: 'e22',
-                content: ""
-            }
-        ]
-    },
-    {
-        id: 'e3',
-        period: "01.2020 - 02.2020",
-        jobTitle: 'Uthappizza',
-        company: 'Orbiteam',
-        jobContents: [
-            {
-                id: 'e31',
-                content: ""
-            },
-            {
-                id: 'e32',
-                content: ""
-            }
-        ]
+        id: 1,
+        period: "2011 - 2015",
+        jobTitle: "Bachelor's Degree, Geomatics and geodesy",
+        company: 'Wuhan University',
+        companyLink: 'https://en.whu.edu.cn/'
     }
 ];

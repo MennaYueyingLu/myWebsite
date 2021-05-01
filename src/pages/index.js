@@ -18,9 +18,9 @@ import { Skills } from '../shared/skills';
 
 const sections = [
   { id: 'top', name: 'Intro', icon: 'fa-home' },
-  { id: 'work', name: 'work', icon: 'fa-th' },
-  { id: 'education', name: 'education', icon: 'fa-th' },
-  { id: 'skill', name: 'skills', icon: 'fa-th' },
+  { id: 'work', name: 'Work Experience', icon: 'fa-th' },
+  { id: 'education', name: 'Education', icon: 'fa-th' },
+  { id: 'skill', name: 'Skills', icon: 'fa-th' },
   { id: 'about', name: 'About Me', icon: 'fa-user' },
   { id: 'contact', name: 'Contact', icon: 'fa-envelope' },
 ];
@@ -31,7 +31,9 @@ const IndexPage = () => (
 
     <div id="main">
       <section id="top" className="one dark cover">
+        <div className="bg-image"></div>
         <div className="container">
+          
           <header>
             <h2 className="alt">
               Hi! I'm <strong>{config.authorName}</strong>
@@ -89,14 +91,8 @@ const IndexPage = () => (
             <img src={aboutme} alt="" />
           </a>
 
-          <p>
-            Developers football competition in diameter big price to layer the
-            pot. Chavez ultricies care who wants to CNN. Lobortis elementum
-            aliquet eget a den of which they do not hold it in hatred developers
-            nor the mountains of the deposit slip. The element of time, sem ante
-            ullamcorper dolor nulla quam placerat viverra environment is not
-            with our customers. Free makeup and skirt until the mouse or
-            partners or to decorate each targeted.
+          <p className="aboutText">
+            uhm....some text some text some text  some text some text some text some text some text some text some text some text some text some text
           </p>
         </div>
       </section>
@@ -104,33 +100,9 @@ const IndexPage = () => (
       <section id="contact" className="four">
         <div className="container">
           <header>
-            <h2>Contact</h2>
+            <h2>Get in Touch</h2>
           </header>
-
-          <p>
-            The element of time, sem ante ullamcorper dolor nulla quam placerat
-            viverra environment is not with our customers. Free makeup and skirt
-            until the mouse. Japan this innovative and ultricies carton salad
-            clinical ridiculous now passes from enhanced. Mauris pot innovative
-            care for my pain.
-          </p>
-
-          <form method="post" action="#">
-            <div className="row">
-              <div className="col-6 col-12-mobile">
-                <input type="text" name="name" placeholder="Name" />
-              </div>
-              <div className="col-6 col-12-mobile">
-                <input type="text" name="email" placeholder="Email" />
-              </div>
-              <div className="col-12">
-                <textarea name="message" placeholder="Message" />
-              </div>
-              <div className="col-12">
-                <input type="submit" value="Send Message" />
-              </div>
-            </div>
-          </form>
+          <p>to do...</p>
         </div>
       </section>
     </div>

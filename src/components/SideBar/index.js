@@ -4,7 +4,7 @@ import Header from './Header';
 import Nav from './Nav';
 import TopNav from './TopNav';
 import config from '../../../config';
-const pic = require('../../assets/images/avatar.png');
+import avatar from '../../assets/images/avatar.jpg';
 
 export default function SideBar({ sections = [] }) {
   const [headerOpen, toggleHeader] = useState(false);
@@ -17,7 +17,7 @@ export default function SideBar({ sections = [] }) {
       <div id="header">
         <div className="top">
           <Header
-            avatar={pic}
+            avatar={avatar}
             title={config.authorName}
             heading={config.heading}
           />

@@ -13,6 +13,9 @@ import pic7 from '../assets/images/pic07.jpg';
 import pic8 from '../assets/images/pic08.jpg';
 import Scroll from '../components/Scroll';
 
+import config from '../../config';
+import Typical from 'react-typical'
+
 const sections = [
   { id: 'top', name: 'Intro', icon: 'fa-home' },
   { id: 'portfolio', name: 'Portfolio', icon: 'fa-th' },
@@ -29,11 +32,12 @@ const IndexPage = () => (
         <div className="container">
           <header>
             <h2 className="alt">
-              Hi! I'm <strong>Anubhav</strong>
+              Hi! I'm <strong>{config.authorName}</strong>
               <br />
-              Web developer
+              <Typical steps={["I'm a ", 1000, "I'm a " + config.heading, 1000]}
+                  loop={Infinity}
+                  wrapper="strong"/>
             </h2>
-            <p>I have made few things check it out.</p>
           </header>
 
           <footer>
@@ -49,14 +53,11 @@ const IndexPage = () => (
       <section id="portfolio" className="two">
         <div className="container">
           <header>
-            <h2>Portfolio</h2>
+            <h2>My Work Experience</h2>
           </header>
 
           <p>
-            Life will feel it is always a great need for eu valley, the valley
-            CNN ridiculous smile at any time chat mainstream clinical homes.
-            Mauris floor was very warm and we need it. One customer now nibh
-            Bureau dark pools behavior.
+            Hello
           </p>
 
           <div className="row">

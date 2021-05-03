@@ -8,11 +8,19 @@ export const Experiences = [
         jobContents: [
             {
                 id: 0,
-                content: "create"
+                content: "Built web-based collabrative work system(Javascript+HTML+CSS)."
             },
             {
                 id: 1,
-                content: "create"
+                content: "Wrote API and tests(Python, Jenkins)."
+            },
+            {
+                id: 2,
+                content: "Drew mockups and logic diagrams for features."
+            },
+            {
+                id: 3,
+                content: "Made demo to potential customers and built bridge to Chinese markte."
             }
         ]
     },
@@ -110,6 +118,19 @@ export const Experiences = [
             {
                 id: 1,
                 content: "Competitor analysis and research"
+            }
+        ]
+    },
+    {
+        id: 6,
+        period: "07.2012 - 08.2012",
+        jobTitle: 'Intern journalists',
+        company: 'Wuhu Daily',
+        companyLink: "http://epaper.wuhunews.cn/whrb/pc/layout/202105/01/lRB01.html",
+        jobContents: [
+            {
+                id: 0,
+                content: "Worked in the department of people’s livelihood, interviewed students, citizens and governors. Published 11 reports."
             }
         ]
     }

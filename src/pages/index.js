@@ -92,7 +92,8 @@ const IndexPage = () => (
           </a>
 
           <p className="aboutText">
-            uhm....some text some text some text  some text some text some text some text some text some text some text some text some text some text
+            Hey. I am Yueying Lu from China, and now living in Bonn, Germany. I am now working as a Frontend developer. In my free time, I like baking and playing guitar. Traveling is also one my favorite things, 
+            and I think companionship is the most important thing to make a trip enjoyable. I wish the world will return soon to health and we won't miss the sunshine this summer!
           </p>
         </div>
       </section>
@@ -102,7 +103,9 @@ const IndexPage = () => (
           <header>
             <h2>Get in Touch</h2>
           </header>
-          <p>to do...</p>
+          <p>Email: <a href="mailto:menna.yueying.lu@gmail.com">menna.yueying.lu@gmail.com</a></p>
+          <p>Linkedin: <a href="https://www.linkedin.com/in/yueying-lu-b09b5b113/">https://www.linkedin.com/in/yueying-lu-b09b5b113/</a> </p>
+          <p>Xing: <a href="https://www.xing.com/profile/Yueying_Lu/cv">https://www.xing.com/profile/Yueying_Lu/cv</a> </p>
         </div>
       </section>
     </div>

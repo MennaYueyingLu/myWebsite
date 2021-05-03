@@ -1227,6 +1227,7 @@
 		}
 		.aboutText{
 			width: 50%;
+			text-align: left;
 		}
 	}
 
@@ -1239,4 +1240,14 @@
 
 	#title{
 		margin-top: 10px;
+	}
+
+	// Contact
+	#contact{
+		header{
+			margin-bottom: 5px;
+		}
+		p{
+			margin-bottom: 0px;
+		}
 	}

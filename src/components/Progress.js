@@ -2,11 +2,11 @@ import React from "react";
 
 export default function Progress({ progresses = [] } ) {
     return (
-        <div>
+        <div className="row">
             {
                 progresses.map(progress => {
                     return (
-                        <div key={progress.id} className="progressContainer">
+                        <div key={progress.id} className="progressContainer col-6 col-12-mobile">
                             <div className="progressTitle">{progress.title}
                                 <span>{progress.percent}</span>
                             </div>
